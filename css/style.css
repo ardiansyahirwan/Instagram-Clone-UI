@@ -1,0 +1,155 @@
+* {
+   --font-primary: 'Roboto', sans-serif;
+   --font-size: 13px;
+   --color-font-form: rgb(142, 142, 170);
+}
+
+body {
+   font-family: var(--font-primary);
+   font-size: var(--font-size);
+}
+
+.container-grid {
+   display: grid;
+   column-gap: 2%;
+   grid-template-columns: auto auto;
+   padding: 0% 15% 0% 15%;
+}
+
+.container {
+   padding: 0% 20% 0% 20%;
+}
+
+.item-grid {
+   padding: 60px 0px;
+   text-align: center;
+}
+
+.image-left-side {
+   padding: 0;
+   margin: 0;
+}
+
+.image-left-side img {
+   width: 390px;
+   height: 550px;
+}
+
+.card {
+   padding: 3.5% 10%;
+   border: 1px solid #dddddd;
+   width: 80%;
+   margin: auto;
+}
+
+.card .card-header-section {
+   padding: 3% 10%;
+   display: flex;
+   justify-content: center;
+}
+
+.card .card-header-section a img {
+   width: 175px;
+   height: 65px;
+}
+
+.card-body-section {
+   padding: 3% 0% 2% 0%;
+   text-align: center;
+}
+
+.card-body-section form input {
+   display: block;
+   margin-bottom: 8px;
+   width: 90%;
+   border: 1px solid #dddddd;
+   border-radius: 5px;
+   padding: 4% 5%;
+}
+
+::-webkit-input-placeholder {
+   font-size: 11px;
+   color: var(--color-font-form);
+}
+
+.btn-login {
+   background-color: rgb(178, 223, 252);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   width: 100%;
+   padding: 3%;
+   margin-top: 9px;
+}
+
+.or {
+   display: flex;
+   flex-direction: row;
+   padding-top: 6%;
+   color: var(--color-font-form);
+}
+
+.or>hr {
+   width: 40%;
+   border: 1px solid #dddddd;
+}
+
+.login-fb {
+   font-style: 16px;
+   font-weight: 500;
+   padding-top: 6%;
+}
+
+.login-fb a,
+a {
+   color: rgb(56, 81, 133);
+   text-decoration: none;
+}
+
+.forgot {
+   padding-top: 6%;
+   font-size: 12px;
+}
+
+.part-2 {
+   margin-top: 3%;
+
+   font-size: 14px;
+}
+
+.part-2 span a {
+   color: rgb(0, 149, 246);
+   font-weight: 500;
+}
+
+.get-app {
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+.download img {
+   width: 136px;
+   height: 40px;
+   margin-left: 1%;
+}
+
+.footer {
+   text-align: center;
+}
+
+.footer ul li {
+   display: inline-block;
+   padding-right: 15px;
+   margin-bottom: 10px;
+   font-size: 11px;
+   color: var(--color-font-form);
+}
+
+.footer span {
+   margin-right: 10px;
+}
+
+.footer p {
+   font-size: 11px;
+   color: var(--color-font-form);
+}
