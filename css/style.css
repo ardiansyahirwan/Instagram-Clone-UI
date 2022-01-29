@@ -211,3 +211,54 @@ a {
 }
 
 /* End Studi Kasus 1 */
+
+/* studi kasus 2 */
+#studi-kasus-2 .container {
+   padding: 0% 15% 0% 15%;
+}
+
+#studi-kasus-2 table {
+   width: 100%;
+}
+
+#studi-kasus-2 .slider {
+   height: 500px;
+}
+
+.slider h3 {
+   text-align: center;
+   padding-top: 250px;
+}
+
+#studi-kasus-2 .underline {
+   width: 100px;
+   margin-left: 0px;
+}
+
+#studi-kasus-2 .about {
+   line-height: 3;
+   text-align: justify;
+   padding-right: 100px;
+}
+
+#studi-kasus-2 .sidebar {
+   width: 300px;
+   text-align: center;
+}
+
+#studi-kasus-2 a {
+   text-decoration: none;
+   color: black;
+}
+
+#studi-kasus-2 ul li {
+   padding-bottom: 10px;
+}
+
+#studi-kasus-2 table.footer {
+   background-color: #FC28FB;
+   width: 100%;
+   padding: 15px 0px 15px 0px;
+}
+
+/* end studi kasus 2 */
