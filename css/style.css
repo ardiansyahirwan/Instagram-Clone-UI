@@ -3,7 +3,7 @@
 * {
    --font-primary: 'Roboto', sans-serif;
    --font-size: 13px;
-   --color-font-form: rgb(142, 142, 170);
+   --color-font-form: #a3a3a3;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 .container-grid {
    display: grid;
    column-gap: 2%;
-   grid-template-columns: auto auto;
+   grid-template-columns: 50% auto;
    padding: 0% 15% 0% 15%;
 }
 
@@ -23,25 +23,25 @@ body {
 }
 
 .item-grid {
-   padding: 60px 0px;
-   text-align: center;
+   padding: 55px 0px;
 }
 
+
 .image-left-side {
-   padding: 0;
-   margin: 0;
+   display: flex;
+   justify-content: end;
 }
 
 .image-left-side img {
-   width: 390px;
-   height: 550px;
+   width: 75%;
+   height: 85%;
+   margin: 4%;
 }
 
 .card {
    padding: 3.5% 10%;
    border: 1px solid #dddddd;
-   width: 80%;
-   margin: auto;
+   width: 60%;
 }
 
 .card .card-header-section {
@@ -80,8 +80,6 @@ input:focus {
    font-size: 11px;
    color: var(--color-font-form);
 }
-
-
 
 .btn-login {
    background-color: #0095F6;
@@ -124,8 +122,8 @@ a {
 
 .part-2 {
    margin-top: 3%;
-
    font-size: 14px;
+   text-align: center;
 }
 
 .part-2 span a {
@@ -134,14 +132,19 @@ a {
 }
 
 .get-app {
+   width: 80%;
    padding-top: 3%;
-   padding-bottom: 3%;
+   text-align: center;
 }
 
-.download img {
+.get-app .download {
+   padding-top: 3%;
+}
+
+.get-app .download a img {
    width: 136px;
    height: 40px;
-   margin-left: 1%;
+   margin-left: 3%;
 }
 
 .footer {
